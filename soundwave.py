@@ -3,7 +3,6 @@ import numpy as np
 import wave, sys
 
 def visualize(path: str):
-
 	raw = wave.open(path)
   
 	signal = raw.readframes(-1)
